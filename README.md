@@ -1,2 +1,2 @@
 # Form-Validator
-A vanilla JS, HTML, CSS project
+A Vanilla JS, HTML, CSS form validator :)
