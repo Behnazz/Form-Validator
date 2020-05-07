@@ -3,38 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="styleSheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Form Validator</title>
   </head>
   <body>
     <div class="container">
       <!-- id for js and class for css -->
       <form id="form" class="form">
-        <h2>Register with Us</h2>
-        <div class="form-control">
-          <label for="username">Username</label>
+        <h1>Register with Us</h1>
+        <section class="form-control">
+          <h2 class="section-title">
+            <label for="username">Username</label>
+          </h2>
           <input type="text" id="username" placeholder="Enter Username" />
           <small>Error Message</small>
-        </div>
-        <div class="form-control">
-          <label for="email">Email</label>
+        </section>
+        <section class="form-control">
+          <h2 class="section-title">
+            <label for="email">Email</label>
+          </h2>
           <input type="text" id="email" placeholder="Enter email" />
           <small>Error Message</small>
-        </div>
-        <div class="form-control">
-          <label for="password">Password</label>
+        </section>
+        <section class="form-control">
+          <h2 class="section-title">
+            <label for="password">Password</label>
+          </h2>
           <input type="password" id="password" placeholder="Enter password" />
           <small>Error Message</small>
-        </div>
-        <div class="form-control">
-          <label for="password2">Confirm Password</label>
+        </section>
+        <section class="form-control">
+          <h2 class="section-title">
+            <label for="password2">Confirm Password</label>
+          </h2>
           <input
             type="password"
             id="password2"
             placeholder="Enter password again"
           />
           <small>Error Message</small>
-        </div>
+        </section>
         <button>Submit</button>
       </form>
     </div>
