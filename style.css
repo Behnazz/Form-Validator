@@ -93,3 +93,9 @@ h2 {
   margin-top: 20px;
   width: 100%;
 }
+
+.section-title {
+  font-size: 16px;
+  text-align: left;
+  line-height: 0em;
+}
